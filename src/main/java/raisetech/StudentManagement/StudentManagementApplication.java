@@ -7,12 +7,13 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class StudentManagementApplication {
-	public static void main(String[] args) {
-		String message = "Hhello World";
 
-		//文字列を反転させる
-		String reversedMessage = StringUtils.reverse(message);
-		System.out.println(reversedMessage);
-	}
+  public static void main(String[] args) {
+    String message = "Hhello World";
+
+    //文字列を反転させる
+    String reversedMessage = StringUtils.reverse(message);
+    System.out.println(reversedMessage);
+  }
 
 }
